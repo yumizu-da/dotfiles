@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Read",
+      "WebSearch"
+    ],
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/*secret*)",
+      "Read(**/*credential*)",
+      "Read(**/*.pem)",
+      "Read(**/*private*.key)",
+      "Read(**/*.key)",
+      "Write(**/.env*)",
+      "Write(**/*secret*)",
+      "Write(**/*credential*)",
+      "Write(**/*.pem)",
+      "Write(**/*private*.key)",
+      "Write(**/*.key)",
+      "Edit(**/.env*)",
+      "Edit(**/*secret*)",
+      "Edit(**/*credential*)",
+      "Edit(**/*.pem)",
+      "Edit(**/*private*.key)",
+      "Edit(**/*.key)"
+    ]
+  }
+}
