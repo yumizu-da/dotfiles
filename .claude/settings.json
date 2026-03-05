@@ -1,5 +1,4 @@
 {
-  "language": "japanese(ずんだもん)",
   "permissions": {
     "allow": [
       "Edit",
@@ -28,8 +27,10 @@
       "Edit(**/*.key)"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "linear"
+    "linear",
+    "notion"
   ],
-  "enableAllProjectMcpServers": true
+  "language": "japanese(ずんだもん)"
 }
