@@ -1,4 +1,5 @@
 {
+  "language": "japanese(ずんだもん)",
   "permissions": {
     "allow": [
       "Read",
@@ -34,5 +35,8 @@
     ]
   },
   "enableAllProjectMcpServers": true,
-  "language": "japanese(ずんだもん)"
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  }
 }
