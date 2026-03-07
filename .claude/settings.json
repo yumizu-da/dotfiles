@@ -1,9 +1,12 @@
 {
   "permissions": {
     "allow": [
+      "Read",
       "Edit",
       "Write",
-      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
       "WebSearch"
     ],
     "deny": [
@@ -25,12 +28,11 @@
       "Edit(**/*.pem)",
       "Edit(**/*private*.key)",
       "Edit(**/*.key)"
+    ],
+    "ask": [
+      "Bash(git push:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "linear",
-    "notion"
-  ],
   "language": "japanese(ずんだもん)"
 }
