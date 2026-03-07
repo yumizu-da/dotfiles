@@ -30,7 +30,7 @@
       "Edit(**/*.key)"
     ],
     "ask": [
-      "Bash(git push:*)"
+      "Bash(git push *)"
     ]
   },
   "enableAllProjectMcpServers": true,
