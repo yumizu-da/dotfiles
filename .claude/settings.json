@@ -1,5 +1,10 @@
 {
   "language": "japanese(ずんだもん)",
+  "env": {
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "DISABLE_TELEMETRY": "1"
+  },
   "permissions": {
     "allow": [
       "Read",
@@ -11,6 +16,9 @@
       "WebSearch"
     ],
     "deny": [
+      "Bash(sudo:*)",
+      "Bash(rm -rf:*)",
+      "Bash(git push *)",
       "Read(**/.env*)",
       "Read(**/*secret*)",
       "Read(**/*credential*)",
@@ -29,14 +37,13 @@
       "Edit(**/*.pem)",
       "Edit(**/*private*.key)",
       "Edit(**/*.key)"
-    ],
-    "ask": [
-      "Bash(git push *)"
     ]
   },
   "enableAllProjectMcpServers": true,
   "statusLine": {
     "type": "command",
     "command": "~/.claude/statusline.sh"
-  }
+  },
+  "alwaysThinkingEnabled": true,
+  "plansDirectory": "./plans"
 }
