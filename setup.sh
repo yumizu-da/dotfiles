@@ -11,7 +11,7 @@ ln -snf "$(pwd)/.claude/rules" "$HOME/.claude/rules"
 ln -snf "$(pwd)/.claude/skills" "$HOME/.claude/skills"
 ln -snf "$(pwd)/.config/starship.toml" "$HOME/.config/starship.toml"
 
-# MCPサーバー設定を ~/.claude.json にマージ
+# MCPサーバー設定を ~/.claude.json にOverride
 CLAUDE_JSON="$HOME/.claude.json"
 MCP_SERVERS="$(pwd)/.claude/mcp-servers.json"
 if [ -f "$CLAUDE_JSON" ]; then
