@@ -1,0 +1,24 @@
+{
+  "notion": {
+    "type": "http",
+    "url": "https://mcp.notion.com/mcp"
+  },
+  "linear": {
+    "type": "http",
+    "url": "https://mcp.linear.app/mcp"
+  },
+  "context7": {
+    "type": "http",
+    "url": "https://mcp.context7.com/mcp"
+  },
+  "arxiv-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "arxiv-mcp-server",
+      "--storage-path",
+      "./.arxiv-mcp-server/papers"
+    ],
+    "env": {}
+  }
+}
