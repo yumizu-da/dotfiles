@@ -10,15 +10,5 @@
   "context7": {
     "type": "http",
     "url": "https://mcp.context7.com/mcp"
-  },
-  "arxiv-mcp-server": {
-    "type": "stdio",
-    "command": "uvx",
-    "args": [
-      "arxiv-mcp-server",
-      "--storage-path",
-      "./.arxiv-mcp-server/papers"
-    ],
-    "env": {}
   }
 }
