@@ -24,7 +24,7 @@
     "deny": [
       "Bash(sudo:*)",
       "Bash(rm -rf:*)",
-      "Bash(git push *)",
+      "Bash(git push *{main,master,develop}*)",
       "Read(**/.env*)",
       "Read(**/*secret*)",
       "Read(**/*credential*)",
