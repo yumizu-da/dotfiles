@@ -50,7 +50,11 @@
     "type": "command",
     "command": "~/.claude/statusline.sh"
   },
+  "enabledPlugins": {
+    "example-skills@anthropic-agent-skills": true
+  },
   "language": "japanese(ずんだもん)",
   "alwaysThinkingEnabled": true,
-  "plansDirectory": "./plans"
+  "plansDirectory": "./plans",
+  "autoMemoryEnabled": false
 }
