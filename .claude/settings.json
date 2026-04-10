@@ -19,7 +19,22 @@
       "mcp__linear__get_issue",
       "mcp__linear__save_issue",
       "mcp__linear__list_comments",
-      "mcp__linear__get_document"
+      "mcp__linear__get_document",
+      "Bash(gh pr list*)",
+      "Bash(gh pr view*)",
+      "Bash(gh pr diff*)",
+      "Bash(gh pr checks*)",
+      "Bash(gh pr status*)",
+      "Bash(gh api repos/*/pulls/*/comments*)",
+      "Bash(gh api repos/*/pulls/*/reviews*)",
+      "Bash(gh api repos/*/issues/*/comments*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git blame*)",
+      "Bash(git status*)",
+      "Bash(git branch*)",
+      "Bash(git fetch*)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -43,6 +58,10 @@
       "Edit(**/*.pem)",
       "Edit(**/*private*.key)",
       "Edit(**/*.key)"
+    ],
+    "ask": [
+      "Bash(gh pr review*)",
+      "Bash(gh pr comment*)"
     ]
   },
   "enableAllProjectMcpServers": true,
