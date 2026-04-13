@@ -71,7 +71,8 @@
     "command": "~/.claude/statusline.sh"
   },
   "enabledPlugins": {
-    "example-skills@anthropic-agent-skills": true
+    "example-skills@anthropic-agent-skills": true,
+    "code-review@claude-plugins-official": true
   },
   "language": "japanese(ずんだもん)",
   "alwaysThinkingEnabled": true,
