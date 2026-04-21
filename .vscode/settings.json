@@ -1,0 +1,77 @@
+{
+    "editor.fontSize": 11,
+    "editor.fontFamily": "Hack Nerd Font, Consolas, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "workbench.activityBar.orientation": "vertical",
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "extensions.ignoreRecommendations": true,
+    // Git
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    // VSCodeのUIを軽量化
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.smoothScrolling": false,
+    "workbench.list.smoothScrolling": false,
+    "breadcrumbs.enabled": false,
+    "editor.codeLens": false,
+    // サイドバー上での表示
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/dist": true,
+        "**/build": true,
+    },
+    // 更新等の監視対象
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.vscode/**": true,
+        "**/coverage/**": true,
+        "**/__generated__/**": true,
+        "**/tmp/**": true,
+        "**/.cache/**": true,
+    },
+    // 検索対象
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.next": true,
+        "**/coverage": true,
+    },
+    "search.followSymlinks": false,
+    // toml
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml",
+    },
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+        },
+    },
+    "errorLens.editorHoverPartsEnabled": { "messageEnabled": true } ,
+    "codesnap.shutterAction": "copy",
+    "claudeCode.preferredLocation": "panel"
+}
