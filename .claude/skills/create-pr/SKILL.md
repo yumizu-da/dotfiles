@@ -104,13 +104,24 @@ git checkout -b <命名規則に沿ったブランチ名>
 git push -u origin HEAD
 ```
 
-#### 6-2. Draft PR を作成
+#### 6-2. PR テンプレートの確認
 
-PR template（`.github/pull_request_template.md`）のフォーマットに沿って作成する。
+リポジトリに PR テンプレートがあるか探す。
+
+```bash
+find .github -name 'pull_request_template*' -o -name 'PULL_REQUEST_TEMPLATE*' 2>/dev/null | head -5
+```
+
+- **テンプレートが見つかった場合**: そのファイルを `Read` で読み込み、テンプレートの見出し・セクション構成をそのまま使って body を作成する。テンプレートに含まれるセクションは省略せず、すべて埋めるか「なし」と記載する。
+- **テンプレートが見つからなかった場合**: 下記のデフォルト形式で body を作成する。
+
+#### 6-3. Draft PR を作成
 
 PRタイトルの形式:
 - Linear issue がある場合: `[TEAM-123] ユーザーフィルター機能を追加`
 - Linear issue がない場合: `ユーザーフィルター機能を追加`
+
+テンプレートが **ない** 場合のデフォルト body:
 
 ```bash
 gh pr create --draft --title "[TEAM-123] PRタイトル" --body "$(cat <<'EOF'
@@ -127,15 +138,14 @@ EOF
 
 - タイトルは70文字以内、先頭に issue 識別子を付ける
 - Linear issue がある場合は body の概要セクションにも `Linear: <issue識別子>` を記載する
-- bodyは「概要」と「リリース時の注意事項」のみ記載する（最低限に絞る）
-- 「動作確認事項」「実装上の説明」は省略してよい（必要ならユーザーが後から追記）
+- テンプレートがない場合、bodyは「概要」と「リリース時の注意事項」のみ記載する（最低限に絞る）
 
-#### 6-3. Linear issue に PR をリンク
+#### 6-4. Linear issue に PR をリンク
 
 ```text
 mcp__linear__save_issue(id: "<issue識別子>", links: [{url: "<PR URL>", title: "<PRタイトル>"}])
 ```
 
-#### 6-4. 完了報告
+#### 6-5. 完了報告
 
 作成したPRのURLをユーザーに報告する。
