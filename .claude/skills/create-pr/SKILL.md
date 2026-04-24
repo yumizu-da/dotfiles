@@ -128,8 +128,6 @@ gh pr create --draft --title "[TEAM-123] PRタイトル" --body "$(cat <<'EOF'
 ## 概要
 <変更内容の簡潔な説明（1-3行）>
 
-Linear: TEAM-123
-
 ## リリース時の注意事項
 なし
 EOF
