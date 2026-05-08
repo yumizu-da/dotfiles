@@ -35,7 +35,8 @@
       "Bash(git blame*)",
       "Bash(git status*)",
       "Bash(git branch*)",
-      "Bash(git fetch*)"
+      "Bash(git fetch*)",
+      "mcp__context7__resolve-library-id"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -74,10 +75,11 @@
     "example-skills@anthropic-agent-skills": true,
     "code-review@claude-plugins-official": true
   },
-  "language": "japanese(ずんだもん)",
+  "outputStyle": "default",
+  "language": "japanese",
   "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
-  "model": "claude-opus-4-6",
-  "effortLevel": "high"
+  "model": "claude-opus-4-7"
 }

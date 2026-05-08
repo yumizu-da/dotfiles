@@ -71,7 +71,13 @@
             "source.fixAll.ruff": "explicit",
         },
     },
-    "errorLens.editorHoverPartsEnabled": { "messageEnabled": true } ,
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports"
+    ],
+    // 拡張機能
+    "errorLens.editorHoverPartsEnabled": {
+        "messageEnabled": true
+    },
     "codesnap.shutterAction": "copy",
     "claudeCode.preferredLocation": "panel"
 }
