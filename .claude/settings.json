@@ -81,5 +81,6 @@
   "effortLevel": "high",
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
-  "model": "claude-opus-4-7"
+  "model": "claude-opus-4-7",
+  "skipAutoPermissionPrompt": true
 }
