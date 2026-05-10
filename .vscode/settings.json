@@ -13,6 +13,7 @@
     // Git
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
+    "git.detectWorktrees": true,
     // VSCodeのUIを軽量化
     "editor.accessibilitySupport": "off",
     "editor.minimap.enabled": false,
