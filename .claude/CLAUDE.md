@@ -1,4 +1,4 @@
-#　Claude Code Guide Line
+# Claude Code Guide Line
 
 ## 基本方針
 
