@@ -21,6 +21,7 @@
       "mcp__linear__list_comments",
       "mcp__linear__get_document",
       "mcp__linear__get_project",
+      "mcp__context7__resolve-library-id",
       "Bash(gh pr list*)",
       "Bash(gh pr view*)",
       "Bash(gh pr diff*)",
@@ -36,7 +37,9 @@
       "Bash(git status*)",
       "Bash(git branch*)",
       "Bash(git fetch*)",
-      "mcp__context7__resolve-library-id"
+      "Bash(gsutil ls *)",
+      "Bash(bq ls *)",
+      "Bash(bq show *)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -66,6 +69,7 @@
       "Bash(gh pr comment*)"
     ]
   },
+  "model": "claude-opus-4-7",
   "enableAllProjectMcpServers": true,
   "statusLine": {
     "type": "command",
@@ -80,6 +84,5 @@
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "plansDirectory": "./plans",
-  "autoMemoryEnabled": false,
-  "model": "claude-opus-4-7"
+  "autoMemoryEnabled": false
 }
