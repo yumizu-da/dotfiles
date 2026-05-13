@@ -37,9 +37,11 @@
       "Bash(git status*)",
       "Bash(git branch*)",
       "Bash(git fetch*)",
+      "Bash(gh api *)",
       "Bash(gsutil ls *)",
       "Bash(bq ls *)",
-      "Bash(bq show *)"
+      "Bash(bq show *)",
+      "Bash(ls *)"
     ],
     "deny": [
       "Bash(sudo:*)",
