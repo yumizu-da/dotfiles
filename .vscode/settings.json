@@ -10,6 +10,7 @@
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.cwd": "${workspaceFolder}",
     "extensions.ignoreRecommendations": true,
+    "python.terminal.useEnvFile": true,
     // Git
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
