@@ -22,6 +22,7 @@
       "mcp__linear__get_document",
       "mcp__linear__get_project",
       "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
       "Bash(gh pr list*)",
       "Bash(gh pr view*)",
       "Bash(gh pr diff*)",
@@ -86,5 +87,6 @@
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "plansDirectory": "./plans",
-  "autoMemoryEnabled": false
+  "autoMemoryEnabled": false,
+  "defaultMode": "auto"
 }
