@@ -11,6 +11,7 @@ ln -snf "$(pwd)/.claude/rules" "$HOME/.claude/rules"
 ln -snf "$(pwd)/.claude/skills" "$HOME/.claude/skills"
 ln -snf "$(pwd)/.config/starship.toml" "$HOME/.config/starship.toml"
 ln -snf "$(pwd)/.vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+ln -snf "$(pwd)/.vscode/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
 
 # MCPサーバー設定を ~/.claude.json にOverride
 CLAUDE_JSON="$HOME/.claude.json"
