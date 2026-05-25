@@ -88,5 +88,6 @@
   "effortLevel": "high",
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
-  "defaultMode": "auto"
+  "defaultMode": "auto",
+  "theme": "dark-daltonized"
 }
