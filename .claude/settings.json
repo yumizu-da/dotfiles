@@ -70,7 +70,8 @@
     "ask": [
       "Bash(gh pr review*)",
       "Bash(gh pr comment*)"
-    ]
+    ],
+    "defaultMode": "auto"
   },
   "model": "claude-opus-4-7",
   "enableAllProjectMcpServers": true,
@@ -88,6 +89,5 @@
   "effortLevel": "high",
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
-  "defaultMode": "auto",
   "theme": "dark-daltonized"
 }
