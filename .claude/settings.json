@@ -89,5 +89,6 @@
   "effortLevel": "high",
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
-  "theme": "dark-daltonized"
+  "theme": "dark-daltonized",
+  "skipAutoPermissionPrompt": true
 }
