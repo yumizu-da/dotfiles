@@ -11,6 +11,7 @@
     "terminal.integrated.cwd": "${workspaceFolder}",
     "extensions.ignoreRecommendations": true,
     "python.terminal.useEnvFile": true,
+    "python.terminal.activateEnvironment": false,
     // Git
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
@@ -81,5 +82,6 @@
         "messageEnabled": true
     },
     "codesnap.shutterAction": "copy",
-    "claudeCode.preferredLocation": "panel"
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.useTerminal": true
 }
