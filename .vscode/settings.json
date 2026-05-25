@@ -83,5 +83,6 @@
     },
     "codesnap.shutterAction": "copy",
     "claudeCode.preferredLocation": "panel",
-    "claudeCode.useTerminal": true
+    "claudeCode.allowDangerouslySkipPermissions": true,
+    "claudeCode.initialPermissionMode":"default"
 }
