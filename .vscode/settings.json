@@ -84,4 +84,7 @@
   "claudeCode.allowDangerouslySkipPermissions": true,
   "claudeCode.initialPermissionMode": "default",
   "cursor.cpp.disabledLanguages": ["plaintext"],
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+  },
 }
