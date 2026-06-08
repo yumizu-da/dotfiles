@@ -42,7 +42,8 @@
       "Bash(gsutil ls *)",
       "Bash(bq ls *)",
       "Bash(bq show *)",
-      "Bash(ls *)"
+      "Bash(ls *)",
+      "mcp__notion__notion-update-page"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -90,5 +91,9 @@
   "plansDirectory": "./plans",
   "autoMemoryEnabled": false,
   "theme": "dark-daltonized",
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  }
 }
