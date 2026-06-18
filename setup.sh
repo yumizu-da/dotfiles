@@ -3,7 +3,10 @@ cd "$(dirname "$0")"
 
 # シンボリックリンクを作成
 mkdir -p "$HOME/.claude"
+mkdir -p "$HOME/.codex"
+
 ln -sf $(pwd)/.zshrc $HOME/.zshrc
+ln -snf "$(pwd)/.claude/CLAUDE.md" "$HOME/.codex/AGENTS.md"
 ln -snf "$(pwd)/.claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -snf "$(pwd)/.claude/settings.json" "$HOME/.claude/settings.json"
 ln -snf "$(pwd)/.claude/statusline.sh" "$HOME/.claude/statusline.sh"
