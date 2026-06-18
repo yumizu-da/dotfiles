@@ -6,12 +6,12 @@ mkdir -p "$HOME/.claude"
 mkdir -p "$HOME/.codex"
 
 ln -sf $(pwd)/.zshrc $HOME/.zshrc
-ln -snf "$(pwd)/.claude/CLAUDE.md" "$HOME/.codex/AGENTS.md"
 ln -snf "$(pwd)/.claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -snf "$(pwd)/.claude/settings.json" "$HOME/.claude/settings.json"
 ln -snf "$(pwd)/.claude/statusline.sh" "$HOME/.claude/statusline.sh"
 ln -snf "$(pwd)/.claude/rules" "$HOME/.claude/rules"
 ln -snf "$(pwd)/.claude/skills" "$HOME/.claude/skills"
+ln -snf "$(pwd)/.codex/config.toml" "$HOME/.codex/config.toml"
 ln -snf "$(pwd)/.config/starship.toml" "$HOME/.config/starship.toml"
 ln -snf "$(pwd)/.vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 ln -snf "$(pwd)/.vscode/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
