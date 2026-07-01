@@ -21,8 +21,15 @@
       "mcp__linear__list_comments",
       "mcp__linear__get_document",
       "mcp__linear__get_project",
+      "mcp__linear__save_document",
+      "mcp__linear__save_milestone",
+      "mcp__linear__list_cycles",
       "mcp__context7__resolve-library-id",
       "mcp__context7__query-docs",
+      "mcp__plugin_Notion_notion__notion-search",
+      "mcp__plugin_Notion_notion__notion-fetch",
+      "mcp__plugin_Notion_notion__notion-update-page",
+      "mcp__notion__notion-update-page",
       "Bash(gh pr list*)",
       "Bash(gh pr view*)",
       "Bash(gh pr diff*)",
@@ -42,8 +49,7 @@
       "Bash(gsutil ls *)",
       "Bash(bq ls *)",
       "Bash(bq show *)",
-      "Bash(ls *)",
-      "mcp__notion__notion-update-page"
+      "Bash(ls *)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -82,18 +88,19 @@
   },
   "enabledPlugins": {
     "example-skills@anthropic-agent-skills": true,
-    "code-review@claude-plugins-official": true
+    "code-review@claude-plugins-official": true,
+    "notion@claude-plugins-official": true
   },
   "outputStyle": "default",
   "language": "japanese",
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "plansDirectory": "./plans",
-  "autoMemoryEnabled": false,
-  "theme": "dark-daltonized",
-  "skipAutoPermissionPrompt": true,
   "voice": {
     "enabled": true,
     "mode": "hold"
-  }
+  },
+  "autoMemoryEnabled": false,
+  "theme": "dark-daltonized",
+  "skipAutoPermissionPrompt": true
 }

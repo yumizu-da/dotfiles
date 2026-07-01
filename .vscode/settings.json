@@ -74,7 +74,9 @@
       "source.fixAll.ruff": "explicit",
     },
   },
-  "mypy-type-checker.args": ["--ignore-missing-imports"],
+  "mypy-type-checker.args": [
+    "--ignore-missing-imports"
+  ],
   // 拡張機能
   "errorLens.editorHoverPartsEnabled": {
     "messageEnabled": true,
@@ -83,8 +85,11 @@
   "claudeCode.preferredLocation": "panel",
   "claudeCode.allowDangerouslySkipPermissions": true,
   "claudeCode.initialPermissionMode": "default",
-  "cursor.cpp.disabledLanguages": ["plaintext"],
+  "cursor.cpp.disabledLanguages": [
+    "plaintext"
+  ],
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
+  "remote.autoForwardPortsSource": "hybrid",
 }
