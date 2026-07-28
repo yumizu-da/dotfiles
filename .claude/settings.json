@@ -80,7 +80,6 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "claude-opus-4-6",
   "enableAllProjectMcpServers": true,
   "statusLine": {
     "type": "command",
@@ -94,7 +93,7 @@
   "outputStyle": "default",
   "language": "japanese",
   "alwaysThinkingEnabled": true,
-  "effortLevel": "high",
+  "effortLevel": "medium",
   "plansDirectory": "./plans",
   "voice": {
     "enabled": true,
@@ -102,5 +101,6 @@
   },
   "autoMemoryEnabled": false,
   "theme": "dark-daltonized",
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "model": "opus[1m]"
 }
