@@ -61,12 +61,6 @@
       "Read(**/*.pem)",
       "Read(**/*private*.key)",
       "Read(**/*.key)",
-      "Write(**/.env*)",
-      "Write(**/*secret*)",
-      "Write(**/*credential*)",
-      "Write(**/*.pem)",
-      "Write(**/*private*.key)",
-      "Write(**/*.key)",
       "Edit(**/.env*)",
       "Edit(**/*secret*)",
       "Edit(**/*credential*)",
@@ -102,5 +96,6 @@
   "autoMemoryEnabled": false,
   "theme": "dark-daltonized",
   "skipAutoPermissionPrompt": true,
-  "model": "opus[1m]"
+  "model": "opus[1m]",
+  "initialPermissionMode": "plan"
 }
